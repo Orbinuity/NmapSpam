@@ -7,7 +7,7 @@ Before copying any part of this project, please read the [LICENSE](./LICENSE) fi
 ## How to use
 
 Usage:
-bash```
+```bash
 ./ns <option> <times> <ip>
 ```
 
@@ -20,7 +20,7 @@ Times:
 the times it runs
 
 Exampel:
-bash```
+```bash
 ./bbc.sh -e 1000 "10.10.1.1"
 ```
 
