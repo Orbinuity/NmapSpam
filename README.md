@@ -11,22 +11,26 @@ Usage:
 ./ns <option> <times> <ip>
 ```
 
+
 Options:
 
--d a dot for evry time it nmaps.
+    -d a dot for evry time it nmaps.
 
--n the number of the current nmap.
+    -n the number of the current nmap.
 
--e nothing.
+    -e nothing.
+
 
 Times:
 
-the times it runs
+    the times it runs
+
 
 Exampel:
 ```bash
 ./ns -e 1000 "10.10.1.1"
 ```
+
 
 Note: forthis you need to have the ns file in you working directory
 follow the install instructions to make it work even if you dont have that file
