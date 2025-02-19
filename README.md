@@ -21,7 +21,23 @@ the times it runs
 
 Exampel:
 ```bash
-./bbc.sh -e 1000 "10.10.1.1"
+./ns -e 1000 "10.10.1.1"
+```
+
+Note: forthis you need to have the ns file in you working directory
+follow the install instructions to make it work even if you dont have that file
+
+## Install
+
+you can move the file to /usr/bin/
+
+```bash
+sudo mv ns /usr/bin/
+```
+
+now you can use it like this:
+```bash
+ns -e 1000 "10.10.1.1"
 ```
 
 ## Made by
