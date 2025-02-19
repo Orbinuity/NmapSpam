@@ -14,16 +14,16 @@ Usage:
 
 Options:
 
-    -d a dot for evry time it nmaps.
+-d a dot for evry time it nmaps.
 
-    -n the number of the current nmap.
+-n the number of the current nmap.
 
-    -e nothing.
+-e nothing.
 
 
 Times:
 
-    the times it runs
+the times it runs
 
 
 Exampel:
