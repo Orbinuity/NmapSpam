@@ -6,13 +6,13 @@ Before copying any part of this project, please read the [LICENSE](./LICENSE) fi
 
 ## How to use
 
-Usage:
+### Usage:
 ```bash
 ./ns <option> <times> <ip>
 ```
 
 
-Options:
+### Options:
 
 -d a dot for evry time it nmaps.
 
@@ -20,20 +20,20 @@ Options:
 
 -e nothing.
 
-
-Times:
+### Times:
 
 the times it runs
 
-
-Exampel:
+### Exampel:
 ```bash
 ./ns -e 1000 "10.10.1.1"
 ```
 
+### Warning
 
-Note: forthis you need to have the ns file in you working directory
-follow the install instructions to make it work even if you dont have that file
+Forthis you need to have the ns file in you working directory.
+
+Follow the install instructions to make it work even if you dont have that file.
 
 ## Install
 
