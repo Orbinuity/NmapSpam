@@ -1,0 +1,33 @@
+#!/bin/bash
+if [ -z "$1" ]; then
+  echo "need arg!"
+  exit 1
+fi
+
+if [ -z "$2" ]; then
+  echo "need 2 args!"
+  exit 1
+fi
+
+if [ -z "$3" ]; then
+  echo "need 3 args!"
+  exit 1
+fi
+
+for i in $(seq 1 "$2"); do
+  if [ "$1" == "-d" ]; then
+    echo -n .
+  elif [ "$1" == "-n" ]; then
+    echo -n "$i "
+  elif [ "$1" == "-e" ]; then
+    :
+  else
+    echo "mode $1 not found"
+    exit 1
+  fi
+  nmap -Pn -T5 "$3" > /dev/null 2>&1 &
+  #nmap -Pn -T5 "$3" &
+done
+
+echo
+echo "DONE"
