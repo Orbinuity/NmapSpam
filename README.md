@@ -24,7 +24,7 @@ Before copying any part of this project, please read the [LICENSE](./LICENSE) fi
 
 the times it runs
 
-### Exampel:
+### Example:
 ```bash
 ./ns -e 1000 "10.10.1.1"
 ```
