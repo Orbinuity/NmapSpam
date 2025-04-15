@@ -49,7 +49,3 @@ now you can use it like this:
 ```bash
 ns -e 1000 "10.10.1.1"
 ```
-
-## Made by
-
-Head: [FloxKcah](https://github.com/FloxKcah)
